@@ -1,6 +1,8 @@
 # wine-alcohol-prediction
 Machine Learning regression project for predicting alcohol content in wine
 
+Video Link: https://drive.google.com/file/d/1Faudj2jolFwFkLz3fLOpX67NmzzGxa6a/view?usp=drive_link
+
 Abstract
 The quality and composition of red wine are influenced by its physicochemical properties. This project aims to predict alcohol content in red wines using the UCI Wine Quality dataset. Multiple regression models were implemented, including Linear Regression, Ridge, Lasso, Random Forest, and Gradient Boosting. A preprocessing pipeline handled missing values, scaled numeric features, and encoded categorical features. Random Forest regression achieved the highest R^2 score on cross-validation and performed best on unseen test data. Feature importance analysis revealed density, volatile acidity, and sulphates as the most influential predictors. Residual and prediction error analysis confirmed the model’s robustness. The trained pipeline was saved for future use on new wine samples.
 
@@ -32,3 +34,4 @@ References
 Di, S., & Yang, Y. (2022). Prediction of Red Wine Quality Using One-Dimensional Convolutional Neural Networks. University of New South Wales & University of Technology Sydney.
 Amrutha. (2023). Red Wine Alcohol Prediction Using Machine Learning Models.
 Jain, K., Kaushik, K., Gupta, S. K., Mahajan, S., & Kadry, S. (2023). Machine learning-based predictive modelling for the enhancement of wine quality. Scientific Reports, 13, 17042. https://doi.org/10.1038/s41598-023-44054-3
+
